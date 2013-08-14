@@ -1,0 +1,25 @@
+{
+    "name": "kalani/laravel-reflector",
+    "description": "Laravel 4/Artisan command to show docblock documentation for a given class",
+    "authors": [
+        {
+            "name": "Joel",
+            "email": "joel@kalani.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "illuminate/console": "4.0.x",
+        "phpdocumentor/reflection-docblock": "2.0.*@dev"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kalani\\LaravelReflector": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
