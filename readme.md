@@ -18,7 +18,7 @@ Next, update Composer from the terminal:
 
 Finally, add the service provider to the providers array in `app\config\app.php`:
 
-    'Kalani\FacadeRoot\FacadeRootServiceProvider',
+    'Kalani\LaravelReflector\LaravelReflectorServiceProvider',
 
 Now, you should be able to use it.
 
